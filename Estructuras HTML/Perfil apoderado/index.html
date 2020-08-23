@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil apoderado</title>
+    
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+     <!-- Optional theme -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+     integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+    </style>
 </head>
 <body>
-    <div>
+    <div class="col-md-3">
         <div>
             <svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M110 0C88.2441 0 66.9767 6.45139 48.8873 18.5383C30.7979 30.6253 16.6989 47.8049 8.3733 67.9048C0.0476611 88.0047 -2.13071 110.122 2.11367 131.46C6.35804 152.798 16.8345 172.398 32.2183 187.782C47.6021 203.165 67.2022 213.642 88.5401 217.886C109.878 222.131 131.995 219.952 152.095 211.627C172.195 203.301 189.375 189.202 201.462 171.113C213.549 153.023 220 131.756 220 110C220 80.8262 208.411 52.8472 187.782 32.2182C167.153 11.5892 139.174 0 110 0ZM172.857 180.078V175.301C173.076 164.587 169.083 154.214 161.738 146.412C154.392 138.609 144.279 133.999 133.571 133.571H86.4286C75.73 134.001 65.6276 138.614 58.2952 146.416C50.9628 154.219 46.9863 164.588 47.2215 175.293C47.2215 175.379 47.1429 175.466 47.1429 175.552V180.149C32.8893 167.425 22.8356 150.673 18.3124 132.11C13.7893 113.547 15.01 94.0484 21.813 76.1944C28.616 58.3404 40.6806 42.9733 56.4097 32.1272C72.1389 21.281 90.791 15.4671 109.897 15.4552C129.003 15.4433 147.663 21.2338 163.405 32.0603C179.148 42.8868 191.232 58.2388 198.057 76.0843C204.882 93.9297 206.128 113.427 201.628 131.996C197.128 150.565 187.095 167.329 172.857 180.07V180.078Z" fill="#303030"/>
@@ -14,30 +23,48 @@
             </svg>
             <p>Nombres y apellidos del apoderado</p>
         </div>
-        <div>
-            <ul>
-                <li><a href="#">Editar perfil</a></li>
-                <li><a href="#">Inscribir a estudiante</a></li>
-                <li><a href="#">Mis hijos</a></li>
+        <p>
+            <hr>
+        <p>
+        <div class="botones" >
+            <ul style="list-style: none; ">
+                <li ><a href="#">Editar perfil</a></li>
+                <li ><a href="#">Inscribir a estudiante</a></li>
+                <li ><a href="#">Mis hijos</a></li>
             </ul>
         </div>
     </div>
-    <div>
+    <div class="col-md-9">
         <div>
-            <img src="/image/logo.svg" alt="Logo">
-            <h1>Bienvenido a PLAVIED</h1>
-            <h3><i>"Tu mundo virtual de aprendizaje"</i></h2>
-            <div class="container-icono-inicio">
+            <div class="logo-letra col-md-3">
+                <img src="../imagenes/mochila_plavied.png" alt="logo" height="60px"><i style="font-family: 'Revalia', cursive; font-size: 25px;" >FIGMA</i>
+                
+            </div>
+            <div class="col-md-7">
+                <h1>Bienvenido a PLAVIED</h1>
+                <h3><i>"Tu mundo virtual de aprendizaje"</i></h2>
+            </div>
+           
+            <div class="container-icono-inicio col-md-2">
                 <a href="#">
                     <svg width="36" height="34" viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M34.9727 16.7266L18.8828 0.648467C18.767 0.532389 18.6294 0.440297 18.4779 0.377464C18.3264 0.31463 18.164 0.282288 18 0.282288C17.836 0.282288 17.6736 0.31463 17.5221 0.377464C17.3706 0.440297 17.233 0.532389 17.1172 0.648467L1.02734 16.7266C0.558594 17.1953 0.292969 17.8321 0.292969 18.4961C0.292969 19.875 1.41406 20.9961 2.79297 20.9961H4.48828V32.4688C4.48828 33.1602 5.04688 33.7188 5.73828 33.7188H15.5V24.9688H19.875V33.7188H30.2617C30.9531 33.7188 31.5117 33.1602 31.5117 32.4688V20.9961H33.207C33.8711 20.9961 34.5078 20.7344 34.9766 20.2617C35.9492 19.2852 35.9492 17.7032 34.9727 16.7266Z" fill="#303030"/>
                     </svg>Inicio
                 </a>
             </div> 
+            <div class="children" style="height: 200px; ">
+                <img src="../imagenes/niño2.jpg" alt="niño2">
+            </div>
         </div>
         <main>
             
         </main>
     </div>
+
+   
+   
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+
 </body>
 </html>
