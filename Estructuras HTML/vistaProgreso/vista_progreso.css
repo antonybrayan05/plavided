@@ -1,0 +1,87 @@
+.carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .boton {
+            background-color: #FCE3AF;
+            color:  #000000;
+            text-align: center;
+            height: 42px;
+            width: 180px;
+            border: coral;
+            font-size: 25px;
+            border-radius: 30px;
+            box-shadow: 2px 2px 5px #999;
+        }
+
+        .boton:hover {
+            background-color: #e28242;
+            color: #ecfafa;
+
+        }
+
+        .margen {
+            margin: 2px 0px 2px 0px;
+            line-break: auto;
+            background-color:#72C1E8;
+        }
+        .formato1{
+            font-size: 16px;
+            border-radius: 25px;
+
+        }
+        .formato_2{
+            background-color:#061B3A ;
+            color:oldlace;
+            font-size: 16px;
+            border-radius: 25px;
+
+        }
+        .separar{
+            margin-right: 30px;
+        }
+        .centrar{
+            text-align: center;
+        }
+        .subcontenedor {
+            height: 90px;
+            margin-top: 10px;
+        }
+
+        .texto-subcontenedor{
+            color: rgb(224, 217, 217);
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif
+        }
+        .border-ovalado {
+            border-radius: 50px;
+        }
+        .encabezado-subcontenedor {
+            font-weight: bold;/*Letra en negrita*/
+            font-size: 25px;
+        }
+        .encabezado-titulo-subcontenedor{
+            font-size: 20px;
+            color: white;
+            font-weight: bold;/*Letra en negrita*/
+        }
+
+        .estilo-cursos {
+            width: 98%;
+            background-color: #f9f9fa;
+            margin-left: 5px;
+            position: relative;
+            padding:18px;
+
+        }
+
+        .estilo-cursos:hover {
+            width: 98%;
+            background-color: #b4dfa4;
+            
+            margin-left: 5px;
+            position: relative;
+            padding:18px;
+
+        }
