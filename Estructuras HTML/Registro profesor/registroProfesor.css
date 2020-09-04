@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
 .fondo2 {
     background-image: url(./imagenRegistroProfesor/teachinghub3a.jpg) ;
     background-size: cover;
@@ -30,7 +30,8 @@
 div.plavied{
     font-family: 'Revalia', cursive ;
     font-size: 30px;
-    color: #c9ecec; 
+    color: #0D7A7C; 
+    
 }
 .alinear{
     align-items: flex-end;
@@ -49,3 +50,9 @@ div label input{
 input{
     margin-inline-end: 0px;
 }
+
+.opacity1{
+    background-color: #E5E5E5;
+    opacity:0.8; /* Opacidad 80% */
+   
+    }
