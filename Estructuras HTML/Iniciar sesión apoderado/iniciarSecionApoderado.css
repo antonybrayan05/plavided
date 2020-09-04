@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+
+.scroll
+{
+     overflow-x:scroll;
+     overflow-y:hidden;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.pt{
+    padding-top: 25px;
+}
+
+.fondo2 {
+    background-image: url(./abaco_apoderado.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; 
+    width: 100%;
+    opacity: 0.2;
+    z-index: -1; 
+}
+
+.letra{
+    font-family: 'Revalia', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 18px;
+    font-size: 50px;
+    color: #0D7A7C;
+}
+
+.letra1{
+    font-family: 'Grandstander', cursive;
+    font-size: 25px;
+    color: #0D7A7C;
+}
+
+
+
+.plavied{
+
+    font-family: 'Revalia', cursive ;
+    font-size: 25px;
+    color: #0D7A7C; 
+
+}
+
+div.plavied{
+    font-family: 'Revalia', cursive ;
+    font-size: 30px;
+    color: #0D7A7C; 
+}
+.alinear{
+    align-items: flex-end;
+    margin-left: 2px;
+
+}
+
+div label input{
+    padding: 4px;
+    
+    font-size-adjust: initial;
+    font-size:14px;
+    border-radius: 5px;
+    
+}
+input{
+    margin-inline-end: 0px;
+}
+
+.estilo1{
+    font-family: Josefin Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 18px;
+}
