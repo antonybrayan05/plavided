@@ -1,24 +1,47 @@
+.scroll
+{
+     overflow-x:scroll;
+     overflow-y:hidden;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.pt{
+    padding-top: 20px;
+}
 
 .fondo2 {
     background-image: url(./niños2.jpg) ;
     background-size: cover;
-    position: relative;
     background-repeat: no-repeat;
-    height: 782px; 
+    height: 100%; 
     width: 100%;
+    opacity: 0.2;
+    z-index: -1; 
+}
+
+.letra{
+    font-family: 'Grandstander', cursive;
+    font-size: 50px;
+    color: #0D7A7C;
+}
+
+.letra1{
+    font-family: 'Grandstander', cursive;
+    font-size: 20px;
+    color: #0D7A7C;
 }
 
 /*LE AGREGAMOS UNA CAPA A LA IMAGEN*/
-.fondo2:before{
+/*.fondo2:before{
     content: "";
-    width: 100%; /*ek total del tamaño del padre*/
-    height:100%; /*el 100% de la altura que se le asignó a su padre content ques es 625px el 100%*/
+    width: 100%;
     background-color: rgb(211, 250, 213);
     position: absolute;
-    opacity: 0.7;
+}*/
 
-
-}
 .plavied{
 
     font-family: 'Revalia', cursive ;
