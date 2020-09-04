@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+
 .scroll
 {
      overflow-x:scroll;
@@ -9,7 +11,7 @@
 }
 
 .pt{
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .fondo2 {
@@ -23,24 +25,22 @@
 }
 
 .letra{
-    font-family: 'Grandstander', cursive;
+    font-family: 'Revalia', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 18px;
     font-size: 50px;
     color: #0D7A7C;
 }
 
 .letra1{
     font-family: 'Grandstander', cursive;
-    font-size: 20px;
+    font-size: 25px;
     color: #0D7A7C;
 }
 
-/*LE AGREGAMOS UNA CAPA A LA IMAGEN*/
-/*.fondo2:before{
-    content: "";
-    width: 100%;
-    background-color: rgb(211, 250, 213);
-    position: absolute;
-}*/
+
 
 .plavied{
 
@@ -71,4 +71,12 @@ div label input{
 }
 input{
     margin-inline-end: 0px;
+}
+
+.estilo1{
+    font-family: Josefin Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 18px;
 }
