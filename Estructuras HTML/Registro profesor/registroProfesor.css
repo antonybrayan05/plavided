@@ -1,0 +1,51 @@
+
+.fondo2 {
+    background-image: url(./imagenRegistroProfesor/teachinghub3a.jpg) ;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 782px; 
+    width: 100%;
+}
+
+/*LE AGREGAMOS UNA CAPA A LA IMAGEN*/
+.fondo2:before{
+    content: "";
+    width: 100%; /*ek total del tamaño del padre*/
+    height:100%; /*el 100% de la altura que se le asignó a su padre content ques es 625px el 100%*/
+    background-color: rgb(211, 250, 213);
+    position: absolute;
+    opacity: 0.7;
+
+
+}
+.plavied{
+
+    font-family: 'Revalia', cursive ;
+    font-size: 25px;
+    color: #0D7A7C; 
+
+}
+
+div.plavied{
+    font-family: 'Revalia', cursive ;
+    font-size: 30px;
+    color: #0D7A7C; 
+}
+.alinear{
+    align-items: flex-end;
+    margin-left: 2px;
+
+}
+
+div label input{
+    padding: 4px;
+    
+    font-size-adjust: initial;
+    font-size:14px;
+    border-radius: 5px;
+    
+}
+input{
+    margin-inline-end: 0px;
+}

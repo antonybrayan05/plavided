@@ -1,88 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrar profesor</title>
+
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./registroProfesor.css">
+
+
 </head>
+
 <body>
-    <div>
-        <h1>Bienvenido a PLAVIED</h1>
-        <h3><i>"Tu mundo virtual de aprendizaje"</i></h2>
-        <div>
-            <a href="/Iniciar sesión profesor/index.html">
-                <svg width="46" height="45" viewBox="0 0 46 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0)">
-                    <path d="M18.0713 9.68589V1.60672C18.071 0.719078 17.3353 -0.000282425 16.4279 8.31818e-08C15.9626 9.42526e-05 15.5192 0.19333 15.2077 0.531492L0.42195 16.6031C-0.118754 17.1922 -0.140413 18.0787 0.371027 18.6924L15.1569 36.3711C15.7314 37.0581 16.7664 37.1594 17.4687 36.5974C17.8491 36.293 18.0703 35.8379 18.0713 35.357V27.3486C31.05 27.7616 39.1493 33.189 42.7999 43.9023C43.0238 44.5578 43.651 44.9997 44.3573 45C44.4459 45.0003 44.5344 44.9932 44.6218 44.9791C45.4166 44.8522 46.0002 44.1806 46.0002 43.3928C46.0001 24.4669 34.3539 10.5634 18.0713 9.68589Z" fill="black"/>
-                    </g>
-                    <defs>
-                    <clipPath id="clip0">
-                    <rect width="46" height="45" fill="white"/>
-                    </clipPath>
-                    </defs> 
-                </svg>Atrás
-            </a>               
+    <div class="fondo2 " style="position:absolute; width: 100%; height: 782px; ">
+
+        <!-- Agregamos el contenedor del formulario-->
+        <div class=" modal-dialog modal-content  form-group" ,
+            style="background-color: rgb(209, 189, 228); position:relative; order: 0;">
+            <div class="row text-center">
+                <div class="row ">
+
+                    <div class="col-sm- col-md-3 col-lg-3">
+                        <a href="../Iniciar sesión profesor/iniciarSecionProfesor.html">
+                            <img src="./imagenRegistroProfesor/regreso.png" alt="logo" style="height: 60px;">Atrás
+                        </a>
+                        
+                    </div>
+
+                    
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <h1 style="font-size: 29px;">Bienvenido a PLAVIED</h1>
+                        <h3 style="font-size: 18px;">
+                            <i>"Tu mundo virtual de aprendizaje"</i>
+                        </h3>
+                    </div>
+
+                    <div class="col-sm-3 col-md-3  col-lg-3 ">
+                        <a href="../../home.html">
+                            <img src="./imagenRegistroProfesor/house_internet.png" alt="logo" style="height: 60px;">Inicio
+                        </a>
+                        
+                    </div>
+
+
+                </div>
+
+                <div class="row plavied">
+                     <span><img src="./imagenRegistroProfesor/mochila_plavied.png" alt="logo" style="height: 120px;">PLAVIED</span>
+                     
+                </div>
+
+
+            </div>
+            <main >
+                <div   style="margin-right: 180px;">
+
+                    <fieldset class="form-group text-right" >
+                        <legend>Datos obligatorios</legend>
+                        <div class="alinear">
+                            <label  >
+                                Ingrese su código:
+                                <input type="text" required>
+                            </label>
+                            <label >
+                                Nombre completo:
+                                <input type="text" placeholder="Ejemplo: Andrea Dayana" required>
+                            </label>
+                            <label >
+                                Apellidos completos:
+                                <input type="text" placeholder="Ejemplo: López Torres" required>
+                            </label>
+                            <br>
+                            <label>
+                                DNI:
+                                <input type="text" required>
+                            </label>
+                            <br>
+                            <label>
+                                Ingrese una contraseña:
+                                <input type="password" required>
+                            </label>
+                            <br>
+                            <label>
+                                Celular:
+                                <input type="number" placeholder="Ejemplo: 987781380" required>
+                            </label>
+                        </div>
+                    </fieldset>
+                </div>
+                
+                <fieldset class="form-group" style="margin-right: 180px;" >
+                    <legend class="text-right">Datos complementarios</legend>
+                    <div class="text-right">
+                        <label>
+                            Telefóno de casa:
+                            <input type="number" placeholder="Ejemplo: 16055021">
+                        </label>
+                        <br>
+                        <label>
+                            Fecha de nacimiento:
+                            <input type="date">
+                        </label>
+                        <br>
+                        <label>
+                            Correo electrónico:
+                            <input type="email" placeholder="ejemplo@gmail.com">
+                        </label>
+                        <br>
+                        <label class="">
+                            Dirección de casa:
+                            <input type="text" placeholder="Av.Gran Chimú 215">
+                        </label>
+                    </div>
+                </fieldset>
+                <div class="text-center">
+                    <input class="btn btn-primary" type="submit" value="Registrar">
+                </div>
+                
+            </main>
+
         </div>
-        <div class="container-icono-inicio">
-            <a href="#">
-                <svg width="36" height="34" viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M34.9727 16.7266L18.8828 0.648467C18.767 0.532389 18.6294 0.440297 18.4779 0.377464C18.3264 0.31463 18.164 0.282288 18 0.282288C17.836 0.282288 17.6736 0.31463 17.5221 0.377464C17.3706 0.440297 17.233 0.532389 17.1172 0.648467L1.02734 16.7266C0.558594 17.1953 0.292969 17.8321 0.292969 18.4961C0.292969 19.875 1.41406 20.9961 2.79297 20.9961H4.48828V32.4688C4.48828 33.1602 5.04688 33.7188 5.73828 33.7188H15.5V24.9688H19.875V33.7188H30.2617C30.9531 33.7188 31.5117 33.1602 31.5117 32.4688V20.9961H33.207C33.8711 20.9961 34.5078 20.7344 34.9766 20.2617C35.9492 19.2852 35.9492 17.7032 34.9727 16.7266Z" fill="#303030"/>
-                </svg>Inicio
-            </a>
-        </div>            
+
     </div>
-    <main>
-        <fieldset>
-            <legend>Datos obligatorios</legend>
-            <div>
-                <label>
-                    Ingrese su código: 
-                    <input type="text" required>
-                </label>
-                <label>
-                    Nombre completo: 
-                    <input type="text" placeholder="Ejemplo: Andrea Dayana" required>
-                </label>
-                <label>
-                    Apellidos completos: 
-                    <input type="text" placeholder="Ejemplo: López Torres" required>
-                </label>
-                <label>
-                    DNI: 
-                    <input type="text" required>
-                </label>
-                <label>
-                    Ingrese una contraseña:
-                    <input type="password" required>
-                </label>
-                <label>
-                    Celular: 
-                    <input type="number" placeholder="Ejemplo: 987781380" required>
-                </label>
-            </div>
-        </fieldset>
-        <fieldset>
-            <legend>Datos complementarios</legend>
-            <div>
-                <label>
-                    Telefóno de casa: 
-                    <input type="number" placeholder="Ejemplo: 16055021">
-                </label>
-                <label>
-                    Fecha de nacimiento: 
-                    <input type="date">
-                </label>
-                <label>
-                    Correo electrónico:
-                    <input type="email" placeholder="ejemplo@gmail.com">
-                </label>
-                <label>
-                    Dirección de casa: 
-                    <input type="text" placeholder="Av.Gran Chimú 215">
-                </label>
-            </div>
-        </fieldset>
-        <input type="submit" value="Regitrar">
-    </main>
+
+
+
+
+    <script src="/maquetacion-plavied/js/jquery.js"></script>
+    <script src="/maquetacion-plavied/js/bootstrap.js"></script>
 </body>
+
 </html>
