@@ -11,11 +11,11 @@
 }
 
 .pt{
-    padding-top: 25px;
+    padding-top: 18px;
 }
 
 .fondo2 {
-    background-image: url(./niños2.jpg) ;
+    background-image: url(./abaco_apoderado.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%; 
@@ -28,7 +28,7 @@
     font-family: 'Revalia', cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 80px;
+    font-size: 60px;
     line-height: 18px;
     font-size: 50px;
     color: #0D7A7C;
@@ -36,7 +36,7 @@
 
 .letra1{
     font-family: 'Grandstander', cursive;
-    font-size: 25px;
+    font-size: 15px;
     color: #0D7A7C;
 }
 
