@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Seción Apoderado</title>
+    <title>Registrar</title>
 
     <link rel="stylesheet" href="../../css/bootstrap.css">
 
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
         integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="./iniciarSesion.css">
+    <link rel="stylesheet" href="./registrar.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -36,10 +36,12 @@
                     <!--Atrás-->
 
                     <div class="col-lg-2 " style="margin-left:70px ;">
+                        <!--
                         <a href="../../home.html">
                             <span style="font-size: 30px; "><img src="./regreso.png" alt="logo"
                                     style="height: 60px;">Atrás</span>
                         </a>
+                        -->
 
                     </div>
 
@@ -50,7 +52,7 @@
                 <div class="col-lg-8">
                     <div class="encabezado centrar pt" style="margin-top: 20px;">
                         <h1 class="letra">Bienvenido a PLAVIED</h1><br>
-                        <h4 class="pt estilo1">INICIAR SESIÓN</h4>
+                   
                     </div>
                     <br><br>
 
@@ -63,7 +65,7 @@
                                 <img src="mochila_plavied.png" style="width:100px;height:100px;">
                             </div>
                             <div class="col-lg-3" style="padding-top:30px;">
-                                <h1 class="letra2">PLAVIED</h1>
+                                <h1 class="letra2">REGISTRATE</h1>
                             </div>
                             <div class="col-lg-3">
                             </div>
@@ -80,12 +82,12 @@
                                     <svg width="200" height="201" viewBox="0 0 200 201" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6667 200.5C16.6667 200.5 0 200.5 0 183.833C0 167.167 16.6667 117.167 100 117.167C183.333 117.167 200 167.167 200 183.833C200 200.5 183.333 200.5 183.333 200.5H16.6667ZM100 100.5C113.261 100.5 125.979 95.2322 135.355 85.8553C144.732 76.4785 150 63.7608 150 50.5C150 37.2392 144.732 24.5215 135.355 15.1447C125.979 5.76784 113.261 0.5 100 0.5C86.7392 0.5 74.0215 5.76784 64.6447 15.1447C55.2678 24.5215 50 37.2392 50 50.5C50 63.7608 55.2678 76.4785 64.6447 85.8553C74.0215 95.2322 86.7392 100.5 100 100.5Z" fill="black"/>
                                     </svg> <br><br>              
-                                   <a  href="../Iniciar sesión apoderado/iniciarSesionApoderado.html"><input  class="boton2"   type="submit" value="Soy un Padre"></a>
+                                   <a  href="../Registro apoderado/RegistroApoderado.html"><input  class="boton2"   type="submit" value="Soy un Padre"></a>
                                 </div>
                             </div>
 
-                            <div class="col-lg-4" style="margin-top: 88px;">
-                                <div>
+                            <div class="col-lg-4" >
+                                <!--<div>
                                     <svg width="196" height="115" viewBox="0 0 196 115" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M98.0012 0.625122L96.045 1.21887L17.92 27.3939L0.157471 33.2501L10.5012 36.5626V91.2501C6.76997 93.4189 4.25122 97.3751 4.25122 102C4.25122 105.315 5.56818 108.495 7.91239 110.839C10.2566 113.183 13.436 114.5 16.7512 114.5C20.0664 114.5 23.2459 113.183 25.5901 110.839C27.9343 108.495 29.2512 105.315 29.2512 102C29.2512 97.3751 26.7325 93.4189 23.0012 91.2501V40.8751L35.5012 44.9689V77.0001C35.5012 82.1251 38.6262 86.3751 42.3387 89.3126C46.0512 92.2314 50.6637 94.2939 56.2012 96.1439C67.2887 99.8314 81.9012 102 98.0012 102C114.101 102 128.714 99.8376 139.801 96.1376C145.339 94.2939 149.951 92.2314 153.664 89.3064C157.376 86.3751 160.501 82.1251 160.501 77.0001V44.9689L178.082 39.1064L195.845 33.2501L178.076 27.3876L99.9512 1.21887L98.0012 0.625122ZM98.0012 13.7189L156.595 33.2501L98.0012 52.7814L39.4075 33.2501L98.0012 13.7189ZM48.0012 49.2689L96.0512 65.2814L98.0012 65.8689L99.9575 65.2751L148.001 49.2626V77.0001C148.001 77.0626 148.026 77.7876 146.045 79.3439C144.07 80.9064 140.526 82.8751 135.889 84.4251C126.626 87.5064 112.97 89.5001 98.0012 89.5001C83.0325 89.5001 69.3762 87.5126 60.1075 84.4189C55.4825 82.8751 51.9325 80.9001 49.9575 79.3439C47.97 77.7814 48.0012 77.0626 48.0012 77.0001V49.2626V49.2689Z" fill="black"/>
                                     </svg>    
@@ -93,7 +95,8 @@
                                     <a href="../Iniciar sesión alumno/iniciarSesionAlumno.html"><input class="boton2" type="submit" value="Soy un Alumno"></a>
                                 </div>
                             </div>
-
+                            -->
+                            </div>
 
                             <div class="col-lg-4">
                                 
@@ -102,7 +105,7 @@
                                         <path d="M0 0V20H169.231V180H61.5385V200H200V180H184.615V0H0ZM30.7846 30C22.6314 30.0369 14.82 34.2623 9.05336 41.7553C3.2867 49.2482 0.0324337 59.4009 0 70C0 91.99 13.8769 110 30.7846 110C38.9337 109.958 46.7396 105.729 52.5005 98.2365C58.2614 90.7436 61.5101 80.5939 61.5385 70C61.5385 48.03 47.6769 30 30.7846 30ZM76.9231 40V60H115.385V40H76.9231ZM130.769 40V60H153.846V40H130.769ZM30.7846 50C39.3538 50 46.1538 58.83 46.1538 70C46.1538 81.2 39.3615 90 30.7846 90C22.1692 90 15.3846 81.2 15.3846 70C15.3846 58.83 22.1769 50 30.7846 50ZM76.9231 80V100H153.846V80H76.9231ZM0 120V200H15.3846V140H38.4615V200H53.8462V146.58L69.7231 157.5C74.2231 160.6 79.6308 160.59 84.1231 157.5V157.52L111.277 138.85L104.1 121.15L76.9385 139.82L53.1231 123.48C49.7993 121.197 46.0975 120.003 42.3385 120H0Z" fill="black"/>
                                     </svg> 
                                     <br> <br>                               
-                                    <a href="../Iniciar sesión profesor/IniciarSesionProfesor.html"><input class="boton2" type="submit" value="Soy un Profesor"></a>
+                                    <a href="../Registro profesor/RegistroProfesor.html"><input class="boton2" type="submit" value="Soy un Profesor"></a>
                                 </div>
 
                             </div>
@@ -111,16 +114,7 @@
                         </div>
                     </div>
                     <br><br>
-                    <div style="text-align: right;"  >
-                        <div class="col-lg-12">
-                            <a href="../Iniciar sesión administrador/iniciarSesionAdministrador.html">
-                                <button type="button" class=" boton1">Administrador</button>
-                                
-                            </a>
-                        </div>
-
-                    </div>
-
+                    
 
                 </div>
 

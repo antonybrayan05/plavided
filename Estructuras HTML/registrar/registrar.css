@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+
+.scroll
+{
+     overflow-x:scroll;
+     overflow-y:hidden;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.pt{
+    padding-top: 25px;
+}
+
+.fondo2 {
+    background-image: url(./abaco_apoderado.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; 
+    width: 100%;
+    opacity: 0.2;
+    z-index: -1; 
+}
+
+.letra{
+    font-family: 'Revalia', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 18px;
+
+    color: #0D7A7C;
+}
+
+.letra1{
+    font-family: 'Grandstander', cursive;
+    font-size: 25px;
+    color: #0D7A7C;
+}
+.letra2{
+    font-family: 'Grandstander', cursive;
+    font-size: 45px;
+    color: #0D7A7C;
+    margin-left: -150px;
+    margin-top: 28px;
+}
+
+
+.plavied{
+
+    font-family: 'Revalia', cursive ;
+    font-size: 25px;
+    color: #0D7A7C; 
+
+}
+
+div.plavied{
+    font-family: 'Revalia', cursive ;
+    font-size: 30px;
+    color: #0D7A7C; 
+}
+.alinear{
+    align-items: flex-end;
+    margin-left: 2px;
+
+}
+
+div label input{
+    padding: 4px;
+    
+    font-size-adjust: initial;
+    font-size:14px;
+    border-radius: 5px;
+    
+}
+input{
+    margin-inline-end: 0px;
+}
+
+.estilo1{
+    font-family: Josefin Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 18px;
+}
+
+.boton1{
+    border-radius: 5px;
+    text-align: center;
+    align-items: right;
+    background-color:#3B9CBA;
+    color: white;
+    height: 20px;
+    width: 80px;
+
+
+
+}
+
+
+
+.boton1:hover{
+
+ background-color:#0f6c88;
+    color: white;
+
+}
+
+.boton2{
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    background-color:#3B9CBA;
+    color: white;
+    height: 35px;
+    width: 190px;
+
+}
+
+.boton2:hover{
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    background-color:#033646;
+    color: white;
+    height: 35px;
+    width: 190px;
+
+}
